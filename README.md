@@ -1,35 +1,34 @@
 Doctor-Patient Appointment Scheduling System
 Overview
-The Doctor-Patient Appointment Scheduling System is a Java-based application with a MySQL database backend. It allows patients to book appointments with doctors, manage appointments, and view patient details. The system also includes admin functionalities for managing patients, doctors, and appointments.
+The Doctor-Patient Appointment Scheduling System is a Java-based application integrated with MySQL for database management. It allows patients to book appointments with doctors, manages patient and doctor records, and enables admin functionalities like scheduling, updating, and managing appointments. The system includes a user-friendly graphical interface built using Java Swing, providing a seamless experience for users.
 
 Features
-Admin Login:
+Admin Dashboard:
 
-Admin can log in with a predefined username and password.
-Admin can view all appointments and manage doctor and patient records.
-Doctor Interface:
+Admin login with username (Shankar) and password (Khushee).
+Admin can view, add, and delete patients, doctors, and appointments.
+Admin can view all appointments and manage the status of appointments.
+Doctor Dashboard:
 
-Doctors can view their scheduled appointments.
+Doctors can view scheduled appointments.
 Doctors can update the status of appointments (Scheduled, Completed, Cancelled).
-Patient Interface:
+Patient Dashboard:
 
-Patients can book appointments with available doctors.
+Patients can register, view, and book appointments with available doctors.
 Patients can view their upcoming appointments.
+Appointment Scheduling:
+
+Admin can schedule new appointments for patients with doctors.
+The system ensures no double bookings for the same doctor at the same time.
 CRUD Operations:
 
-Admin can add, remove, and view patients and doctors.
-Admin can schedule, reschedule, and view all appointments.
-Doctors can update the status of their appointments.
-Database Integration:
+Full CRUD (Create, Read, Update, Delete) support for managing patients, doctors, and appointments.
+User Interface:
 
-The system is backed by a MySQL database that stores data for patients, doctors, and appointments.
-User-Friendly Design:
-
-The interface is designed with a clean layout, intuitive navigation, and background images for better user experience.
+Modern and clean Java Swing interface with background images for better user experience.
+Fullscreen interfaces with intuitive navigation between different sections of the application.
 Requirements
-Java Development Kit (JDK): 8 or higher
-MySQL Database: Version 5.7 or higher
+Java: JDK 8 or higher
+MySQL: Version 5.7 or higher
 IDE: IntelliJ IDEA, Eclipse, or any Java-compatible IDE
-Libraries:
-Java Swing (for UI)
-MySQL JDBC Connector (mysql-connector-java)
+Libraries: Java Swing, MySQL JDBC Connector (mysql-connector-java)
